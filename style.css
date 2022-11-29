@@ -1,3 +1,11 @@
-h1, p {
-  font-family: Lato;
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.first > button {
+  margin-left: auto;
 }
